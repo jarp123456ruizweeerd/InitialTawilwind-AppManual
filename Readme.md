@@ -1,7 +1,10 @@
 Pasos para instalar Tailwind css
 
-1.-Ejecutar el comando para la instalacion 'npm i -D tailwindcss postcss autoprefixer'
-2.-Ejecutar el comando 'npx tailwindcss init -p'
+1.-Ejecutar el comando para la instalacion 
+<ul>
+  <li>npm i -D tailwindcss postcss autoprefixer</li>
+  <li>npx tailwindcss init -p</li>
+</ul>
 3.-En el archivo principal de css (main.css en react) colocar los siguientes lineas 
 @tailwind base;
 @tailwind components;
